@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Lien vers votre fichier CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers votre fichier CSS -->
 </head>
 <body>
+    
     <header>
-        <h1>Bienvenue sur mon portfolio</h1>
+             
+        
+        <div class="link">
+            <h1 align="center" style="margin-right: 50px; margin-top: 40px;">Bienvenue sur mon portfolio</h1>  
         <nav>
             <ul>
-                <li>home</a></li>
-                <li><a href="#about">À propos</a></li>             
-                <li><a href="#moncv">mon cv</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <span style="padding-left: 40px;">home</a></span>               
+                <span style="padding-left: 40px;"><a href="#about">À propos</a></span>  
+                <span style="padding-left: 40px;"><a href="#moncv">mon cv</a></span>
+                <span style="padding-left: 40px;"><a href="#contact">Contact</a></span>
             </ul>
+
+
+            </div>
         </nav>
     </header>
 
+     <div class="cover">
     <section id="about">
         <h2><a href="about"></a>À propos de moi</h2>
         <h1>Issa Ndiaye</h1>
-        <p>Je suis un étudiant en développement web a <b>Gomycode</b> passionné par la création de sites internet et d'applications. J'aime apprendre de nouvelles technologies et relever des défis.</p>
+        <p>Je suis un étudiant en développement web a <b>Gomycode</b> passionné par la création de sites internet et d'applications.
+            <br><br>
+             J'aime apprendre de nouvelles technologies et relever des défis.</p>
         <img src="./WhatsApp Image 2025-04-04 à 02.02.28_2861af46.jpg" width="400px">
     </section>
+   </div>
 
+   <div class="cover2">
     <section id="moncv">
-        <h2><a href="moncv"></a>MON CV</h2>
+        <h2 align="center"><a href="moncv"></a>MON CV</h2>
         <div class="project">
 
               [ISSA NDIAYE]
@@ -62,11 +74,12 @@
             <p>site web de restaurant d'un client</p>
             <a href="lien_vers_votre_projet_1">Voir le projet</a>
         </div>
+        </div>
  
         
         <!-- Ajoutez d'autres projets ici -->
     </section>
-
+    <div class="cover3">
     <section id="contact">
         <h2><a href="contact"></a>CONTACTE</h2>
         <p>Vous pouvez me contacter par email à <a href="issandiaye911@gmail.com">issandiaye911@gmail.com</a>.</p>
@@ -84,6 +97,7 @@
         </form>
 
     </section>
+    </div>
 
     <footer>
         <p>&copy; 2025 Mon Nom. Tous droits réservés.</p>

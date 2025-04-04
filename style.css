@@ -1,0 +1,59 @@
+
+
+:root{
+              background: url(./cover_overlay.png) no-repeat center/100% 100%, url(./cover.jpg) no-repeat center/cover;          
+
+}
+
+
+div.link{
+        background: url(./cover_overlay.png) no-repeat center/100% 100%, url(./cover.jpg) no-repeat center/cover;
+        height: 300px;
+}
+
+.link{
+     color: rgba(255, 255, 255, 0.87);
+     padding-left: 30%;
+     padding-right: 300px;
+     margin-right: 40px;
+     margin: 50px;
+
+}
+
+
+    
+
+div.cover h2{
+             
+              text-align: center;
+              color: rgb(243, 235, 235);
+
+
+}
+div.cover h1{
+        
+             
+        text-align: center;
+        color: rgb(250, 242, 242);
+
+}
+
+div.cover p{
+        float: right;
+        color: rgb(199, 220, 247);
+        text-align: center;
+        padding-right: 200px;
+        margin-top: 100px;
+              
+
+}
+div.cover2{
+        background: url(./cover_overlay.png) no-repeat center/100% 100%, url(./cover.jpg) no-repeat center/cover;
+        text-align: center;
+       color: aqua; 
+}
+
+div.cover3{
+        text-align: center;
+        background-color: azure;
+}
